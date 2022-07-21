@@ -1,0 +1,66 @@
+footer{
+    width: 100%;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 100%;
+    max-width: 1024px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rows {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.box1 {
+    width: 320px;
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+h4{
+    font-size: 1.8rem;
+    color: #ee0909;
+}
+.subscribeGrop {
+    display: flex;
+}
+svg.socialIcon {
+    width: 30px;
+    height: 30px;
+    background: #ee0909;
+    margin: 5px;
+    border-radius: 20px;
+    color: #fff;
+}
+input.formControl {
+    width: 235px;
+    height: 40px;
+    border: none;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    outline: none;
+    padding: 5px;
+}
+
+button#basic-addon2 {
+    height: 100;
+    width: 65px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 25px;
+    outline: none;
+}

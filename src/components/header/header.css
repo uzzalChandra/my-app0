@@ -1,0 +1,100 @@
+.contentContainer {
+  width: 100%;
+  height: 100vh;
+  /* background: linear-gradient(to bottom, rgba(0, 0, 0, 11.8), #ff4f8b8f); */
+  background: #1c1a1a59;
+}
+.contentBox {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+}
+.contentBoxLeft {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px #17cc99;
+}
+.contentDetails {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.contentDetails h3 {
+  font-style: oblique;
+  color: #FC0A09;
+  font-size: 30px;
+}
+.contentDetails h1 {
+  font-style: oblique;
+  color: #fff;
+  font-size: 50px;
+  box-shadow: 0 25px 45px;
+}
+.contentBoxRight {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rightContinuer {
+  width: 100%;
+  height: 475px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imgSlide {
+  width: 350px;
+  height: 475px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.myImg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.myImage {
+  width: 300px;
+  height: 460px;
+  object-fit: cover;
+  position: absolute;
+  opacity: 3;
+  backdrop-filter: blur(23px);
+  z-index: 5;
+  border-radius: 96px;
+  box-shadow: inset 10px 10px 25px #210A12,
+    inset -10px -10px 25px #FC0A09;
+  display: inline-block;
+}
+.myImaged {
+  width: 300px;
+  height: 400px;
+  /* bottom: 244px; */
+  object-fit: cover;
+  background-size: cover;
+  position: absolute;
+  background-repeat: no-repeat;
+  border-radius: 55px;
+  z-index: 10;
+}
+.myImaged:hover {
+  top: 180px;
+  width: 302px;
+  height: 459px;
+  transition: 0.8s;
+}
+.footer {
+  width: 300px;
+  height: 250px;
+  background: #5646;
+}
